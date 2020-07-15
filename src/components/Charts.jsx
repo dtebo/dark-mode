@@ -12,7 +12,7 @@ const Charts = (props) => {
           <div className="coin__logo">
             <img src={coin.image} height="40" alt={coin.name} />
           </div>
-          <Chart sparklineData={coin.sparkline_in_7d.price} darkMode={darkMode} />
+          <Chart sparklineData={coin.sparkline_in_7d.price} mode={darkMode} />
         </div>
       ))}
     </div>
